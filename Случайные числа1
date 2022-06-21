@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+ // Compiler version 4.0, .NET Framework 4.5
+
+
+ namespace Dcoder
+ {
+   public class Program
+   {
+     public static void Main(string[] args)
+     {
+         Random rand = new Random ();
+           char randomChar = (char)rand.Next('a','z');
+         int random = rand.Next(100,1000);
+         char randomChar2 = (char)rand.Next('A','Z');
+         int random2 = rand.Next(100,1000);
+         Console.Write (random);
+           Console.Write (randomChar);
+           Console.Write (random2);
+           Console.Write (randomChar2);           
+         }
+       }
+     
+   }
